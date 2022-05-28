@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300;1,400;1,500&display=swap');
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img{
+  width: 300px;
+  height: 350px;
+}
+
+.container{
+  padding: 50px;
+  border: 3px solid rgb(105, 102, 102);
+}
+
+.descricao{
+  width: 300px;
+}
+
+h2{
+  margin-bottom: 5px;
+}
+
+.duracao{
+  width: 300px;
+  margin-top: 25px;
+}
+
+.barra{
+  width: 300px;
+  height: 6px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+progress{
+  height: 6px;
+  width: 0%;
+  background-color: #333;
+}
+
+.ponto{
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: -3px;
+}
+
+.tempo{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.player{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.botao-play, .botao-pause{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.setas{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.botao-pause{
+  display: none;
+}
